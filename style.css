@@ -63,6 +63,9 @@
   .about-project p{
     margin-bottom: 2rem;
   }
+  .about-project{
+   margin: 1rem;
+  }
   #about > *:not(:last-child){
     margin-bottom: 2rem;
   }
