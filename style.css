@@ -10,15 +10,11 @@
       --lightBlue: #086D9B;
       --mainWhite: #ffffff;
       --lightWhite: #fffef8;
-      /* --accentPink: #FF8587; */
       --accentPink: #FF999B;
       --mainFont: 'Metrophobic', sans-serif;
       --headingFont: 'Montserrat', sans-serif; 
       --accentFont: 'Cardo', serif;
   }
-  /*  accent font: font-family: 'Cardo', serif;
-  text: font-family: 'Metrophobic', sans-serif;
-  Headings: font-family: 'Montserrat', sans-serif; */
  body{
      background-color: var(--mainDarkBlue);
      color: var(--mainWhite);
@@ -33,10 +29,15 @@
     margin-top: 1rem;
     font-family: var(--accentFont);
   }
+  header{
+    background-color: var(--mainBlack);
+    grid-area: 1 / 1 / 2 / 6;
+    padding: 1rem 2rem;
+    display: flex;
+  }
   #about h3{
       margin-top: 0.25rem
-    }
-      
+  }
   #project-list h3 {
     text-align: center;
     margin: 0.2rem;
@@ -70,12 +71,6 @@
     margin-bottom: 2rem;
   }
   
-  header{
-    background-color: var(--mainBlack);
-    grid-area: 1 / 1 / 2 / 6;
-    padding: 1rem 2rem;
-    display: flex;
-  }
   #other-links ul {
     display: flex;
     margin-top: 0.5rem;
@@ -103,14 +98,13 @@
     text-decoration: none;
     margin-right: 2rem;
   }
+
   #other-links a:hover{
     color: var(--mainWhite);
     margin-right: 2rem;
     text-decoration: underline;
     text-decoration-color: var(--accentPink);
     text-decoration-thickness: 2px;
-
-
   }
   #links a:hover {
     text-decoration: underline;
