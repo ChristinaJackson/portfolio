@@ -130,8 +130,14 @@
     color:var(--lightWhite);
     padding: 10px;
   }
+
   #buttons a:hover {
     text-decoration: underline;
+  }
+ #todo-link{
+   text-decoration: underline;
+    margin: 0 !important;
+    margin-right: 4px;
   }
   .project {
     background-color: #054461;
