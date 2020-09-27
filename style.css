@@ -67,6 +67,9 @@ header{
 .about-project{
  margin: 1rem;
 }
+.about-project.reviews{
+  margin: 2rem;
+}
 #about > *:not(:last-child){
   margin-bottom: 2rem;
 }
@@ -162,6 +165,9 @@ a:hover {
 }
 
 @media screen and (min-width: 800px) {
+  .about-project.reviews{
+    margin: 4rem auto;
+  }
   body {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
