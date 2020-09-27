@@ -57,7 +57,10 @@ header{
   margin: 1rem;
 }
 .about-links{
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: center;
   font-size: 1.1rem;
   margin-bottom: 1rem;
 }
@@ -96,10 +99,17 @@ a:hover {
   align-content: center;
 }
 #links a,
-#other-links a, .about-project a {
+#other-links a {
   color: var(--mainWhite);
   text-decoration: none;
   margin-right: 2rem;
+}
+.about-project a {
+  color: var(--mainWhite);
+  text-decoration: none;
+}
+.about-project a:not(:last-child){
+  margin-right: 1rem;
 }
 
 #other-links a:hover{
